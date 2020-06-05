@@ -45,19 +45,19 @@ getAnimeByGenre();
 
 > To get started...
 
-### Passo 1
+### Step 1
 
-- **Opção 1**
+- **Option 1**
     - 🍴  Fork this repo!
 
-- **Opção 2**
+- **Option 2**
     - 👯  Clone this repo to your local machine using `git clone https://github.com/ribeirogab/jikan-nodejs.git`
 
-### Passo 2
+### Step 2
 
 - **HACK AWAY!** 🔨🔨🔨
 
-### Passo 3
+### Step 3
 
 - 🔃  Create a new pull request using <a href="https://github.com/ribeirogab/jikan-nodejs/compare/" target="_blank">`https://github.com/ribeirogab/jikan-nodejs/compare/`</a>.
 
