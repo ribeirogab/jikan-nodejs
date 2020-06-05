@@ -1,4 +1,9 @@
 declare module 'jikan-nodejs' {
+  export function itemsById(
+    type: 'anime' | 'manga',
+    mal_ids: number[],
+  ): Promise<object[]>;
+
   namespace anime {
     export function characters(): string;
   }

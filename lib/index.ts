@@ -1,3 +1,4 @@
-import genre from './genre';
+import genre from './functions/genre';
+import itemsById from './functions/itemsById';
 
-export default { genre };
+export default { genre, itemsById };

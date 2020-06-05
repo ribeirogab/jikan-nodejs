@@ -1,4 +1,4 @@
-import api from '../api';
+import api from '../../api';
 
 export default async function list(
   type: 'anime' | 'manga',

@@ -25,6 +25,9 @@
   "rules": {
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
+    "@typescript-eslint/camelcase": "off",
+    "no-await-in-loop": "off",
+    "camelcase": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
