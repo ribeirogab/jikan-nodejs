@@ -1,6 +1,4 @@
-<h1 align="center">
-<img src="https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png" alt="Jikan wrapper" width="480"/>
-</h1>
+[![jikan-nodejs](https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png)]
 
 # Jikan Node.js
 > A wrapper for the jikan REST API.
