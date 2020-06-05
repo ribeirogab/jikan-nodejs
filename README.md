@@ -1,6 +1,7 @@
 <h1 align="center">
 <img src="https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png" alt="Jikan wrapper" width="400"/>
 </h1>
+
 # Jikan Node.js
 > A wrapper for the jikan REST API.
 
@@ -41,9 +42,12 @@ getAnimeByGenre();
 - Genre ()
   - Anime Listing (All Anime by Genre)
   - Manga Listing (All Anime by Genre)
-  - **Import:**
-    - ```js const { genre } = require('jikan-nodejs');```
-  - **Parameters type**
+  **Import:**
+    - 
+    ```js 
+    const { genre } = require('jikan-nodejs');
+    ```
+  **Parameters type**
     - ``` ts genre.list(type: 'anime' | 'manga', id: number, limit?: number, page?: number): object[]; ```
 
 ---
