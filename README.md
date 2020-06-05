@@ -1,4 +1,4 @@
-[![Jikan](https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png)](wrapper-for-jikan)
+[![Jikan](https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png =250x)](wrapper-for-jikan)
 
 # Jikan Node.js
 > A wrapper for the jikan REST API.
