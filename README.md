@@ -1,4 +1,4 @@
-[![jikan-nodejs](https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png)]
+![jikan-nodejs](https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png =100x20)
 
 # Jikan Node.js
 > A wrapper for the jikan REST API.
