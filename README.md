@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png" alt="Jikan wrapper" width="400"/>
+<img src="https://github.com/ribeirogab/jikan-nodejs/blob/master/examples/logo.png" alt="Jikan wrapper" width="480"/>
 </h1>
 
 # Jikan Node.js
