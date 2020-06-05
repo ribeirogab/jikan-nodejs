@@ -7,5 +7,5 @@ examples
 .eslintignore
 .eslintrc.json
 .gitignore
-prettier.config
+prettier.config.js
 tsconfig.json
