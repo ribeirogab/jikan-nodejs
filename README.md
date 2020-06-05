@@ -33,10 +33,18 @@ getAnimeByGenre();
 ```
 
 ## Features
-
-- Genre
+- itemsById
+  - **Import:**
+    - ```js const { itemsById } = require('jikan-nodejs');```
+  - **Parameters type:**
+    - ``` ts itemsById(type: 'anime' | 'manga', mal_ids: number[]): object[]; ```
+- Genre ()
   - Anime Listing (All Anime by Genre)
   - Manga Listing (All Anime by Genre)
+  - **Import:**
+    - ```js const { genre } = require('jikan-nodejs');```
+  - **Parameters type**
+    - ``` ts genre.list(type: 'anime' | 'manga', id: number, limit?: number, page?: number): object[]; ```
 
 ---
 
