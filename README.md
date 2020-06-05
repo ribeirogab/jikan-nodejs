@@ -43,12 +43,13 @@ getAnimeByGenre();
   - Anime Listing (All Anime by Genre)
   - Manga Listing (All Anime by Genre)
   **Import:**
-    - 
     ```js 
     const { genre } = require('jikan-nodejs');
     ```
   **Parameters type**
-    - ``` ts genre.list(type: 'anime' | 'manga', id: number, limit?: number, page?: number): object[]; ```
+    ```
+    ts genre.list(type: 'anime' | 'manga', id: number, limit?: number, page?: number): object[]; 
+    ```
 
 ---
 
