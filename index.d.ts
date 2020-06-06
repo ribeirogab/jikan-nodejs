@@ -28,12 +28,12 @@ declare module 'jikan-nodejs' {
   }
 
   namespace genre {
-    export function animeByGenre(
+    export function animesByGenre(
       mal_id: number,
       limit?: number,
       page?: number,
     ): Promise<GenreAnimeByGenre>;
-    export function mangaByGenre(
+    export function mangasByGenre(
       mal_id: number,
       limit?: number,
       page?: number,

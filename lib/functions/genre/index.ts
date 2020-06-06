@@ -1,4 +1,4 @@
-import animeByGenre from './animeByGenre';
-import mangaByGenre from './mangaByGenre';
+import animesByGenre from './animesByGenre';
+import mangasByGenre from './mangasByGenre';
 
-export default { animeByGenre, mangaByGenre };
+export default { animesByGenre, mangasByGenre };

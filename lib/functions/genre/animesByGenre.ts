@@ -2,7 +2,7 @@ import api from '../../api';
 
 import AnimeByGenre, { Anime } from '../../interfaces/genre/AnimeByGenre';
 
-export default async function animeByGenre(
+export default async function animesByGenre(
   id: number,
   limit?: number,
   page?: number,

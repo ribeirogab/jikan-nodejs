@@ -2,7 +2,7 @@ import api from '../../api';
 
 import MangaByGenre, { Manga } from '../../interfaces/genre/MangaByGenre';
 
-export default async function mangaByGenre(
+export default async function mangasByGenre(
   mal_id: number,
   limit?: number,
   page?: number,
