@@ -1,11 +1,12 @@
 {
   "name": "jikan-nodejs",
-  "version": "0.0.20",
+  "version": "0.0.27",
   "main": "index.js",
   "repository": "https://github.com/ribeirogab/jikan-nodejs.git",
   "author": "ribeirogab <ribeirogabx@gmail.com>",
   "license": "MIT",
-  "description": "Under development...",
+  "description": "A Node.js wrapper for Jikan REST API.",
+  "keywords": ["myanimelist", "wrapper", "manga", "anime", "jikan"],
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --no-notify --transpileOnly --ignore-watch node_modules src/server.ts"

@@ -1,4 +1,6 @@
+import anime from './functions/anime';
+import manga from './functions/manga';
 import genre from './functions/genre';
-import itemsById from './functions/itemsById';
+import itemById from './functions/itemById';
 
-export default { genre, itemsById };
+export default { anime, manga, genre, itemById };

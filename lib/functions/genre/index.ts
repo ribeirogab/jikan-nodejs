@@ -1,3 +1,4 @@
-import list from './list';
+import animeByGenre from './animeByGenre';
+import mangaByGenre from './mangaByGenre';
 
-export default { list };
+export default { animeByGenre, mangaByGenre };

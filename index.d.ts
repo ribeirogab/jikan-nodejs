@@ -1,23 +1,42 @@
+import AnimeMainInformation from './lib/interfaces/anime/MainInformation';
+import AnimeCharactersAndStaff from './lib/interfaces/anime/CharactersAndStaff';
+import MangaMainInformation from './lib/interfaces/manga/MainInformation';
+import MangaCharacters from './lib/interfaces/manga/Characters';
+import GenreAnimeByGenre from './lib/interfaces/genre/AnimeByGenre';
+import GenreMangaByGenre from './lib/interfaces/genre/MangaByGenre';
+
 declare module 'jikan-nodejs' {
-  export function itemsById(
-    type: 'anime' | 'manga',
-    mal_ids: number[],
-  ): Promise<object[]>;
+  export function itemById(
+    type: string,
+    mal_id: number,
+  ): Promise<AnimeMainInformation | MangaMainInformation>;
 
   namespace anime {
-    export function characters(): string;
+    export function mainInformation(
+      mal_id: number,
+    ): Promise<AnimeMainInformation>;
+    export function charactersAndStaff(
+      mal_id: number,
+    ): Promise<AnimeCharactersAndStaff>;
   }
 
   namespace manga {
-    export function characters(): string;
+    export function mainInformation(
+      mal_id: number,
+    ): Promise<MangaMainInformation>;
+    export function characters(mal_id: number): Promise<MangaCharacters>;
   }
 
   namespace genre {
-    export function list(
-      type: 'anime' | 'manga',
-      id: number,
+    export function animeByGenre(
+      mal_id: number,
       limit?: number,
       page?: number,
-    ): Promise<object[]>;
+    ): Promise<GenreAnimeByGenre>;
+    export function mangaByGenre(
+      mal_id: number,
+      limit?: number,
+      page?: number,
+    ): Promise<GenreMangaByGenre>;
   }
 }
