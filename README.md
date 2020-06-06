@@ -34,16 +34,16 @@ getAnimesByGenre();
 ```
 
 ## Features
-- Item By Id
-- Anime
-  - Main Information
-  - Characters & Staff
-- Manga
-  - Main Information
-  - Characters
-- Genre
-  - Anime Listing (All Anime by Genre)
-  - Manga Listing (All Anime by Genre)
+- Item By Id;
+- Anime:
+  - Main Information;
+  - Characters & Staff.
+- Manga:
+  - Main Information;
+  - Characters.
+- Genre:
+  - Anime Listing (All Anime by Genre);
+  - Manga Listing (All Anime by Genre).
 
 ---
 
