@@ -21,20 +21,26 @@ $ yarn add jikan-nodejs
 
 ### Example
 
-> Feature: genre.list(type, genreId, limit)
+> Feature: genre.animesByGenre(genreId, limit)
 ```js
 const { genre } = require('jikan-nodejs');
 
-async function getAnimeByGenre() {
-  const animes = await genre.list('anime', 1, 10);
-  console.log(animes);
+async function getAnimesByGenre() {
+  const animes = await genre.animesByGenre(1, 10); // parameters: genreId, limit
+  console.log(animes); // print 10 animes
 }
 
-getAnimeByGenre();
+getAnimesByGenre(); 
 ```
 
 ## Features
-- itemsById
+- Item By Id
+- Anime
+  - Main Information
+  - Characters & Staff
+- Manga
+  - Main Information
+  - Characters
 - Genre
   - Anime Listing (All Anime by Genre)
   - Manga Listing (All Anime by Genre)
