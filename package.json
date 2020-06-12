@@ -1,6 +1,6 @@
 {
   "name": "jikan-nodejs",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "main": "index.js",
   "repository": "https://github.com/ribeirogab/jikan-nodejs.git",
   "author": "ribeirogab <ribeirogabx@gmail.com>",
