@@ -7,7 +7,7 @@
 
 For more information, please refer to [Jikan documentation](https://jikan.docs.apiary.io/#).
 
-## Getting Started
+## Getting Started 
 
 ### Installation
 > if you use npm
