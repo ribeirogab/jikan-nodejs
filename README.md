@@ -10,11 +10,13 @@ For more information, please refer to [Jikan documentation](https://jikan.docs.a
 ## Getting Started 
 
 ### Installation
-> if you use npm
+
+if you use npm
 ```
 $ npm install jikan-nodejs
 ```
-> if you use yarn
+
+if you use yarn
 ```
 $ yarn add jikan-nodejs
 ```
