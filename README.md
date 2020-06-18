@@ -90,7 +90,7 @@ getAnimesByGenre();
     
 ---
 
-## Suport
+## Support
 
 Contact me!
 
