@@ -71,10 +71,13 @@ getAnimesByGenre();
 
 ## Contributors
 
-| <a href="https://github.com/ribeirogab" target="_blank">**Gabriel Ribeiro**</a> |  
-:---:
-| [![ribeirogab](https://avatars3.githubusercontent.com/u/44847326?s=200&u=30a156f0a61f81eaa137cb286ed13e9527916039&v=4)](https://github.com/ribeirogab)    | 
-| <a href="https://github.com/ribeirogab" target="_blank">`https://github.com/ribeirogab`</a> | 
+| [<img src="https://avatars0.githubusercontent.com/u/25018440?s=400&u=5ed52972c721a418083b0b89f4797db100c50e3c&v=4" width="115"><br><sub>@lucassodrem1</sub>](https://github.com/lucassodrem1) | <img width="115"> | <img width="115"> | <img width="115"> | <img width="115"> | <img width="115"> |
+|:-:|:-:|:-:|:-:|:-:|:-:| 
+
+## Author
+
+| [<img src="https://avatars3.githubusercontent.com/u/44847326?s=400&u=30a156f0a61f81eaa137cb286ed13e9527916039&v=4" width="115"><br><sub>@ribeirogab</sub>](https://github.com/ribeirogab) |
+| :---: |
 
 ---
 
