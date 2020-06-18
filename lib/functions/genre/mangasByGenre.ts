@@ -4,22 +4,17 @@ import MangaByGenre, { Manga } from '../../interfaces/genre/MangaByGenre';
 
 export default async function mangasByGenre(
   mal_id: number,
-  limit?: number,
-  page?: number,
+  params?: { [Key: string]: number }
 ): Promise<MangaByGenre> {
-  const { data } = await api.get<MangaByGenre>(
-    `/genre/manga/${mal_id}/${page || ''}`,
-  );
+  let url = `/search/manga?genre=${mal_id}`;
 
-  if (limit) {
-    const items: Manga[] = [];
-
-    for (let i = 0; i < limit; i += 1) {
-      items.push(data.manga[i]);
+  for(let param in params) {
+    if(params[param]) {
+      url += `&${param}=${params[param]}`;
     }
-
-    data.manga = items;
   }
+  
+  const { data } = await api.get<MangaByGenre>(url);
 
   return data;
 }

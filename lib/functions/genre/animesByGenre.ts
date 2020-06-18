@@ -4,22 +4,17 @@ import AnimeByGenre, { Anime } from '../../interfaces/genre/AnimeByGenre';
 
 export default async function animesByGenre(
   id: number,
-  limit?: number,
-  page?: number,
+  params?: { [Key: string]: number }
 ): Promise<AnimeByGenre> {
-  const { data } = await api.get<AnimeByGenre>(
-    `/genre/anime/${id}/${page || ''}`,
-  );
+  let url = `/search/anime?genre=${id}`;
 
-  if (limit) {
-    const items: Anime[] = [];
-
-    for (let i = 0; i < limit; i += 1) {
-      items.push(data.anime[i]);
+  for(let param in params) {
+    if(params[param]) {
+      url += `&${param}=${params[param]}`;
     }
-
-    data.anime = items;
   }
+
+  const { data } = await api.get<AnimeByGenre>(url);
 
   return data;
 }
